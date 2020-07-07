@@ -27,4 +27,8 @@ int main()
 {
 	AbstractWeapon* Gun = new Shotgun();
 	AbstractBullet* Shuter= Gun->Shoot();
+	PcConfigurator MyPC;
+	MyPC.SetPCFactory(new HomePcFactory());
+	PC pc;
+	MyPC.Configure(&pc);
 }
