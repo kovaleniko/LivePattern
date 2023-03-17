@@ -3,10 +3,10 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <time.h>
 #include <iostream>
-#include "AbstractFab.cpp"
-#include "Builder.cpp"
-#include "Fabrika.cpp"
-#include "Prototype.cpp"
+#include "AbstractFab.h"
+#include "Builder.h"
+#include "Fabrika.h"
+#include "Prototype.h"
 using namespace std;
 
 class Single {

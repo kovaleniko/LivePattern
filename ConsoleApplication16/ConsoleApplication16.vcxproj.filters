@@ -18,18 +18,18 @@
     <ClCompile Include="ConsoleApplication16.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="AbstractFab.cpp">
+    <ClCompile Include="AbstractFab.h">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Fabrika.cpp">
+    <ClCompile Include="Fabrika.h">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Natvis Include="Builder.cpp">
+    <Natvis Include="Builder.h">
       <Filter>Исходные файлы</Filter>
     </Natvis>
-    <Natvis Include="Prototype.cpp">
+    <Natvis Include="Prototype.h">
       <Filter>Исходные файлы</Filter>
     </Natvis>
   </ItemGroup>
