@@ -140,14 +140,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ConsoleApplication16.cpp" />
-    <ClCompile Include="AbstractFab.cpp">
+    <ClCompile Include="AbstractFab.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClCompile>
-    <Natvis Include="Builder.cpp">
+    <Natvis Include="Builder.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </Natvis>
-    <ClCompile Include="Fabrika.cpp" />
-    <Natvis Include="Prototype.cpp">
+    <ClCompile Include="Fabrika.h" />
+    <Natvis Include="Prototype.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </Natvis>
   </ItemGroup>
