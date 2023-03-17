@@ -31,4 +31,8 @@ int main()
 	MyPC.SetPCFactory(new HomePcFactory());
 	PC pc;
 	MyPC.Configure(&pc);
+
+	int mas[20] = { 1,1,1,1,1 };
+	for (int i = 0; i < 20; ++i)
+		std::cout << *(mas + i) << endl;
 }
