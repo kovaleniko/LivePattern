@@ -25,10 +25,14 @@ Single* Single::ptr = new Single;
 
 int main()
 {
-	PcConfigurator MyPC;
-	MyPC.SetPCFactory(new HomePcFactory());
+	
 	AbstractWeapon* Gun = new Shotgun();
 	AbstractBullet* Shuter= Gun->Shoot();
+	double mas1[30] = {};
+	PcConfigurator MyPC;
+	for (double* ptr = mas1; ptr != mas1 + 30; ++ptr)
+		*ptr = 100;
+	MyPC.SetPCFactory(new HomePcFactory());
 	PC pc;
 	MyPC.Configure(&pc);
 
