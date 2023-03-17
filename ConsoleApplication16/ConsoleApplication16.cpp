@@ -28,15 +28,10 @@ int main()
 	
 	AbstractWeapon* Gun = new Shotgun();
 	AbstractBullet* Shuter= Gun->Shoot();
-	double mas1[30] = {};
 	PcConfigurator MyPC;
-	for (double* ptr = mas1; ptr != mas1 + 30; ++ptr)
-		*ptr = 100;
 	MyPC.SetPCFactory(new HomePcFactory());
 	PC pc;
 	MyPC.Configure(&pc);
 
-	int mas[20] = { 1,1,1,1,1 };
-	for (int i = 0; i < 20; ++i)
-		std::cout << *(mas + i) << endl;
+
 }
